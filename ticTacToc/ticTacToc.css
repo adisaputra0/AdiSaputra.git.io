@@ -36,3 +36,12 @@ button:hover{
     border-color: white;
     color: white;
 }
+@media screen and (max-width:500px){
+    table{
+        width: 100%;
+    }
+    
+    button{
+        width: 100%;
+    }
+}
