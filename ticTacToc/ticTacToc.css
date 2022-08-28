@@ -1,0 +1,38 @@
+body{
+    background-color: #0B0C10;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+}
+table tr td{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+table tr td:hover{
+    background-color: white;
+    color: black;
+}
+button{
+    background-color: white;
+    border-color: white;
+    color: black;
+    width: 50%;
+    height: 5vh;
+    margin-bottom: 40px;
+    transition: all 0.5s linear;
+}
+button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
