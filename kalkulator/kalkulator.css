@@ -32,11 +32,3 @@ table{
     border: 3px solid rgb(224, 224, 224);
     margin: 40px auto 40px auto;
 }
-@media screen and (max-width: 330px){
-    body{
-        text-align: start;
-    }
-    table{
-        margin: 40px 0px 40px 0px;
-    }
-}
