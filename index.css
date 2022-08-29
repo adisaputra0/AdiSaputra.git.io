@@ -298,4 +298,15 @@ nav .menu{
         transform: translateX(200px);
         transition: all 0.5s linear;
     }
+    .halamanAbout .tentang{
+        width: 100%;
+    }
+    .halamanAbout p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 400px){
+    .halamanAbout p{
+        font-size: 11px;
+    }
 }
