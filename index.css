@@ -1,4 +1,4 @@
-html{
+        html{
     scroll-behavior: smooth;
 }
 *{
@@ -301,11 +301,6 @@ nav .menu{
     .halamanAbout .tentang{
         width: 100%;
     }
-    .halamanAbout p{
-        font-size: 13px;
-    }
-}
-@media screen and (max-width: 400px){
     .halamanAbout p{
         font-size: 11px;
     }
