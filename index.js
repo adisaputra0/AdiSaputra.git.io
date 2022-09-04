@@ -26,6 +26,7 @@ whatsapp.addEventListener('click', () => {
 let booleanMenu = false;
 let menu = document.querySelector('.menu');
 let navUl = document.querySelector('nav > ul');
+let halamanProjectCatatan = document.querySelector('.halamanProject .catatan');
 let navUlLi = document.querySelectorAll('nav > ul > li');
 let menuSpan1 = menu.querySelectorAll('span')[0];
 let menuSpan2 = menu.querySelectorAll('span')[1];
@@ -33,6 +34,7 @@ let menuSpan3 = menu.querySelectorAll('span')[2];
 menu.addEventListener('click', () => {
     if(booleanMenu == false){
         booleanMenu = true;
+        halamanProjectCatatan.style.zIndex= '0';
         menuSpan1.style.transform= 'rotate(-45deg) translateY(13.5px)';
         menuSpan2.style.transform= 'scale(0)';
         menuSpan3.style.transform= 'rotate(45deg) translateY(-14px)';
@@ -54,6 +56,7 @@ menu.addEventListener('click', () => {
             navUlLi[i].style.transform= 'translateX(200px)';
             setTimeout(function(){
                 navUlLi[i].style.display= 'none';
+                halamanProjectCatatan.style.zIndex= '1';
             },400);
         }
     }

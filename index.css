@@ -175,6 +175,7 @@ nav .menu{
     border-radius: 15%;
     box-sizing: border-box;
     background-color: #17181d;
+    z-index: 1;
 }
 .halamanProject .catatan span{
     color: #50a8a4;
