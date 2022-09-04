@@ -27,10 +27,8 @@ button:hover{
     color: white;
 }
 table{
-    margin: auto;
     border-radius: 5%;
     padding: 2px;
     border: 3px solid rgb(224, 224, 224);
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto 40px auto;
 }

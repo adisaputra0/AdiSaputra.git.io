@@ -1,4 +1,4 @@
-html{
+        html{
     scroll-behavior: smooth;
 }
 *{
@@ -121,21 +121,8 @@ nav .menu{
     font-size: 17px;
 }
 .halamanAbout .tentang{
-    width: 400px;
-    height: 350px;
-    overflow: auto;
-    padding: 30px;
-    border-radius: 15%;
-    box-sizing: border-box;
-    background-color: #17181d;
-}
-.halamanAbout .spasi{
-    width: 15px;
-    height: 15px;
-}
-.halamanAbout .skill{
-    width: 400px;
-    height: 350px;
+    width: 800px;
+    height: 400px;
     overflow: auto;
     padding: 30px;
     border-radius: 15%;
@@ -311,5 +298,11 @@ nav .menu{
         display: none;
         transform: translateX(200px);
         transition: all 0.5s linear;
+    }
+    .halamanAbout .tentang{
+        width: 100%;
+    }
+    .halamanAbout p{
+        font-size: 11px;
     }
 }
